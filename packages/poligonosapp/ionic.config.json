@@ -1,0 +1,7 @@
+{
+  "name": "poligonosapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
