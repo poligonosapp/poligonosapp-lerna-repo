@@ -1,7 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "license": "Apache-2.0",
+  "author": "Fabio Rodrigues <https://www.facebook.com/kefaro>, Luis Mendes <machadoluismendes@gmail.com>",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "netlify": "^6.1.24"
   }
 }
