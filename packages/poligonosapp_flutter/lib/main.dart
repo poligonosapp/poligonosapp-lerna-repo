@@ -4,8 +4,14 @@ import 'package:flutter/cupertino.dart';
 
 import 'dart:html';
 
+import 'dart:js';
+
 import 'package:react/react.dart';
 import 'package:react/react_dom.dart' as react_dom;
+@JS()
+library dog;
+// The above two lines are required
+import 'package:js/js.dart';
 
 void main() {
 
@@ -39,6 +45,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
+
 }
 
 class MyHomePage extends StatefulWidget {

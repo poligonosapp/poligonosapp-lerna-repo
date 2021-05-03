@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.poligonosapp_flutter">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.sensor.compass"
+        android:required="true" />
    <application
         android:label="poligonosapp_flutter"
         android:icon="@mipmap/ic_launcher">
