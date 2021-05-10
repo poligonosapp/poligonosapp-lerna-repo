@@ -5,6 +5,7 @@ import './pages/circle.dart';
 import './pages/custom_crs/custom_crs.dart';
 import './pages/esri.dart';
 import './pages/home.dart';
+import './pages/interactive_test_page.dart';
 import './pages/live_location.dart';
 import './pages/many_markers.dart';
 import './pages/map_controller.dart';
@@ -25,7 +26,6 @@ import './pages/tile_builder_example.dart';
 import './pages/tile_loading_error_handle.dart';
 import './pages/widgets.dart';
 import './pages/wms_tile_layer.dart';
-import 'pages/interactive_test_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -55,8 +55,8 @@ class MyApp extends StatelessWidget {
         OnTapPage.route: (context) => OnTapPage(),
         MarkerRotatePage.route: (context) => MarkerRotatePage(),
         MovingMarkersPage.route: (context) => MovingMarkersPage(),
-        CirclePage.route: (context) => CirclePage(),
         PolygonPage.route: (context) => PolygonPage(),
+        CirclePage.route: (context) => CirclePage(),
         OverlayImagePage.route: (context) => OverlayImagePage(),
         SlidingMapPage.route: (_) => SlidingMapPage(),
         WMSLayerPage.route: (context) => WMSLayerPage(),

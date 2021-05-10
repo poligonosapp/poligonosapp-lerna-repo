@@ -25,7 +25,7 @@ class PolygonPage extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: Text('Polygon')),
+      appBar: AppBar(title: Text('Polygons')),
       drawer: buildDrawer(context, route),
       body: Padding(
         padding: EdgeInsets.all(8.0),

@@ -20,7 +20,7 @@ class CirclePage extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: Text('Circle')),
+      appBar: AppBar(title: Text('')),
       drawer: buildDrawer(context, route),
       body: Padding(
         padding: EdgeInsets.all(8.0),
