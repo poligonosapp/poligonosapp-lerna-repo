@@ -12,7 +12,11 @@ import 'dart:math';
 String scrabbleLetters =
     'aaaaaaaaabbccddddeeeeeeeeeeeeffggghhiiiiiiiiijkllllmmnnnnnnooooooooppqrrrrrrssssttttttuuuuvvwwxyyz**';
 
-List<ButtonElement> buttons = List();
+//deprecated
+// List<ButtonElement> buttons = List();
+
+List<ButtonElement> buttons = [];
+
 Element letterpile;
 Element result;
 ButtonElement clearButton;
