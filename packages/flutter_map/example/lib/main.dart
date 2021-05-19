@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:latlong2/latlong/Polygon.dart';
+// import 'package:latlong2/latlong/Polygon.dart';
+import 'package:latlong/latlong.dart' hide Path; // conflict with Path from UI
 
 import './pages/animated_map_controller.dart';
 import './pages/circle.dart';

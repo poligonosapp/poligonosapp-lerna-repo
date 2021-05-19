@@ -19,15 +19,16 @@ class _TestAppState extends State<TestApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Container(
-            width: 200,
-            height: 200,
-            child: FlutterMap(
-              options: MapOptions(
-                center: LatLng(45.5231, -122.6765),
+    var center2 = LatLng(45.5231, -122.6765);
+        return MaterialApp(
+          home: Scaffold(
+            body: Center(
+              child: Container(
+                width: 200,
+                height: 200,
+                child: FlutterMap(
+                  options: MapOptions(
+                    center: center2,
                 zoom: 13.0,
               ),
               layers: [
